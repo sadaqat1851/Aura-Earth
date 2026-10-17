@@ -343,8 +343,8 @@ app.get('/api/admin/users', requireAdmin, (req, res) => {
   }
 })();
 
-// Serve SPA - all routes go to index.html
-app.get('*', (req, res) => {
+// Serve SPA - fallback to index.html for all page routes
+app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 

@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Admin",
+    "email": "admin@auraandearth.com",
+    "phone": "+92 300 1234567",
+    "password": "$2b$10$2mzH/RAB7vfJAxFIp4PEF.7CLEasf1Yfw1eF67fvvbqUZ3zpTXhPO",
+    "role": "admin",
+    "createdAt": "2026-10-17T21:17:05.322Z",
+    "wishlist": [],
+    "addresses": []
+  }
+]
